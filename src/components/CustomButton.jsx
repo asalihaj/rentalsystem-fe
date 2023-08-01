@@ -32,7 +32,7 @@ const CustomButton = ({
     [theme.breakpoints.down("sm")]: {
       marginTop: guideBtn && theme.spacing(3),
       width: guideBtn && "90%",
-    },
+    }
   }));
 
   return <CustomButton>{buttonText}</CustomButton>;
